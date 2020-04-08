@@ -1,0 +1,409 @@
+J/A+A/558/A53  Milky Way global survey of star clusters. II. (Kharchenko+, 2013)
+================================================================================
+Global survey of star clusters in the Milky Way.
+II. The catalogue of basic parameters.
+    Kharchenko N.V., Piskunov A.E., Roeser S., Schilbach E., Scholz R.-D.
+   <Astron. Astrophys. 558, A53 (2013)>
+   =2013A&A...558A..53K
+================================================================================
+ADC_Keywords: Clusters, open ; Radial velocities ; Proper motions ; Milky Way
+Keywords: techniques: photometric - catalogs - astrometry - stars: kinematics -
+          open clusters and associations: general - Galaxy: stellar content
+
+Abstract:
+    We present a list of 3006 Milky Way Stellar Clusters (MWSC), found in
+    the 2MAst (2MASS with Astrometry) catalogue. The target list was
+    compiled on the basis of present-day lists of open, globular and
+    candidate clusters. For confirmed clusters we determined a homogeneous
+    set of astrophysical parameters such as membership, angular radii of
+    the main morphological parts, mean cluster proper motions, distances,
+    reddenings, ages, tidal parameters, and sometimes radial velocities.
+
+Description:
+    An all-sky target list of 3784 entries with initial cluster parameters
+    was compiled from sources available in the literature. As the primary
+    source we used the data from the Catalogue of Open Cluster Data (COCD,
+    Kharchenko et al. 2005a,b, Cat. J/A+A/438/1163, J/A+A/440/403). For
+    further optical clusters the data were taken from the Dias et al.
+    (2002, Cat. B/ocl) list (Version 3.1, 24/nov/2010). Known associations
+    were retrieved from Melnik & Dambis (2009, Cat. J/MNRAS/400/518). For
+    clusters detected in the NIR the information came from Bica et al.
+    (2003b, Cat. J/A+A/404/223), Dutra et al. (2003,
+    Cat. J/A+A/400/533), Froebrich et al. (2007, Cat. J/MNRAS/374/399).
+    Globular clusters were selected from the catalogue by Harris (1996,
+    edition 2010, 2010arXiv1012.3224H). Additionally, we incorporated
+    supplementary data on embedded clusters from Bica et al. (2003a, Cat.
+    J/A+A/397/177), Lada & Lada (2003ARA&A..41...57L) and on stars in
+    associations from Humphreys (1978, Cat. V/44).
+
+    The basic stellar data were taken from the all-sky catalogue 2MAst
+    (2Mass with Astrometry), that was extracted from the all-sky
+    catalogues PPMXL (Roeser et al. 2010, Cat. I/317) and 2MASS (Cutri et
+    al. 2003, Cat. II/246). Additionally, we incorporated data on radial
+    velocities from Kharchenko et al. (2007, Cat. III/254) and spectral
+    types from ASCC-2.5 (Kharchenko & Roeser 2009, Cat. I/280).
+
+    Around each object from our target list we defined a circular area
+    with a radius of ra=r2+radd where r2 is the cluster radius, and
+    radd=0.3{deg}. In these areas we selected in 2MAst only those stars
+    with flags Rflg (the 2nd triple of the flags in 2MASS) set to 1, 2, or
+    3 in each band, i.e. the stars with the best quality detections in
+    photometric and astrometric data.
+
+    There are 3784 targets in our object list, we confirmed 3006 clusters
+    and/or associations. These 3006 sky areas contain about 63.5 mln 2MAst
+    stars with best quality detections in photometric and astrometric
+    data. We selected about 0.14 mln most probable members located in the
+    central cluster regions and determined - with a homogeneous
+    method/pipeline - angular sizes of the main morphological parts,
+    heliocentric distances, colour-excesses, mean proper motions, ages,
+    tidal parameters, sometimes radial velocities and metallicities.
+
+    We present for the Milky Way:
+
+    The Catalogue of the MWSC Data with:
+      Catalogue of parameters for confirmed clusters;
+      Index (full list) of MWSC objects;
+      Notes (full object list with notes);
+      Inside each list the entries are sorted by MWSC numbers (i.e. right
+      ascension J2000 from the target list).
+
+    The Catalogues of the MWSC Stars in 3006 circular sky areas with
+      classified clusters. Files are sorted by MWSC numbers; inside each sky
+      area the entries are sorted by Ks magnitudes.
+
+    The Atlas of MWSC diagrams.
+      In the Atlas, the Cluster pages are sorted by MWSC numbers.
+
+Description of files: atlas/*
+
+    For each cluster we prepared two EPS-pages with diagrams:
+     Page 1 contains the cluster map as the basic panel
+     (file MWSC_Name_map.eps.gz),
+     Page 2 contains the Ks,(J-Ks) and Ks,(J-H) CMDs as basic panels
+     (file MWSC_Name_cmd.eps.gz).
+
+    The legend on each page gives the cluster name, MWSC number, (COCD
+    number); equatorial RAJ2000, DecJ2000, and galactic l, b coordinates
+    of the cluster centre; apparent cluster sizes r0, r1, r2, [number of
+    1sigma-members within the corresponding radius]; weighted average
+    components PM_(X,Y) of proper motion with their rms errors, [number of
+    stars used to compute the average]; the average radial velocity, RV
+    with their rms error, [the number of stars used to compute the
+    average]; distance to the cluster, d, distance modulus, (Ks-M_Ks);
+    NIR colour-excesses, E(J-H), E(J-Ks), interstellar extinction, A(Ks);
+    cluster age, its rms error, [the number of stars used to compute the
+    average age, or it is -1 if a manual isochrone fit was applied].
+    Additionally we show in the 2nd pages: an empirical correction
+    Delta_H for a better isochrone fit in the K_s,(J-H) diagram.
+
+    Symbols and their colours have the same meaning in all plots. Stars
+    are shown as coloured circles or dots. Cyan symbols mark stars outside
+    the cluster radius r2, green symbols are stars within r2. The most
+    probable kinematic and photometric members (1sigma-members) are
+    indicated in black, red, or blue. Black is for members located within
+    r1 (the visible radius of the central part), red for members between
+    r1 and r2, and blue for stars outside r2 (the probabilities are
+    formal). Cyan bars show the uncertainty for 1sigma-members.
+
+Description of files MWSC_Name_map.eps.gz (Page 1):
+
+   Page 1 contains five diagrams with spatial information.
+   The right panel is a map of the cluster neighbourhood (MAP),
+   the left panels show (from top to bottom) relations depending on the
+   distance from the cluster centre, r, for:
+   -magnitude Ks (Ks vs. r),
+   -proper motions (PM vs. r),
+   -density profile diagram (DPD).
+
+   MAP:
+    Stars are displayed as small circles.
+    The circle size corresponds to the stellar magnitude ranged in six
+    Ks mag intervals:
+    < 6.0, 6.0 - 8.0, 8.0 - 10.0, 10.0 - 12.0, 12.0 - 14.0, > 14.0.
+    Blue cross : cluster centre selected in this study;
+    Blue plus : cluster centre from the literature;
+    Magenta pluses : centres of other clusters (from target list) visible
+                      (if any) in the map;
+    Dotted blue large circle : cluster core border (r0);
+    Solid blue large circle : inner cluster border (r1);
+    Dashed blue large circle : cluster corona border (r2).
+
+   The left panels:
+   Blue vertical dotted, solid, dashed lines  mark r0, r1, r2, respectively.
+
+   PM vs. r: Magenta  horizontal lines correspond to the average proper
+   motion of the cluster determined in this paper;
+
+   DPD: Density profiles (Log of Number of stars per 1 sq.deg) are shown for
+   all stars (green line), 3sigma-members (blue line), 2sigma-members (magenta
+   line) and 1sigma-members (black line).
+
+Description of files MWSC_Name_cmd.eps.gz (Page 2):
+
+   Page 2 contains diagrams with kinematic and photometric information.
+   The three left panels are:
+    -two PM_(X,Y) vs. Ks relations, i.e. PM-magnitude equation diagrams (MEDs);
+    -the vector point diagram of proper motions (VPD).
+   The two upper right panels are:
+    -relations (Ks,(J-H) and Ks,(J-Ks), i.e. the colour-magnitude
+      diagrams (CMDs).
+   The bottom right panels:
+    -colour-colour diagrams (CCDs);
+    -reddening-independent parameter Q-colour diagrams (QCDs).
+
+   The CCDs and QCDs are separated into two subpanels (as well as CMDs and
+   MEDs are separated into two parts via a broken line). The division is
+   made with respect to the Ks_mc magnitude: in the bottom subpanels we
+   place data for Ks>Ks_mc, in the upper ones - for Ks<Ks_mc, where
+   Ks_mc is Ks-magnitude at the bluest colour (J-Ks) of the isochrone
+   closest to the determined cluster age.
+
+  CMDs:
+   Magenta curve: the apparent isochrone closest to the determined cluster age;
+   Solid blue lines: left and right borders of a domain of 100% photometric
+                      cluster members;
+   Solid red lines: ZAMS and TAMS (shown only in the Ks,(J-Ks) diagram), the
+                     borders of the evolved Main Sequence stars;
+   Magenta dashed line: corresponds to the Ks_mc;
+   Thick yellow circles: stars selected for age determination;
+   Black arrows: increasing interstellar extinction vectors.
+
+  MED:
+   Magenta solid lines correspond to the average proper motion of the
+    cluster; the magenta dashed line corresponds to the Ks_mc.
+
+  CCD and QCD:
+   The Magenta curve corresponds to the apparent isochrone (observed magnitudes
+   and colours); the cyan curve corresponds to the intrinsic isochrone.
+
+   This catalog supersed Kharchenko et al., 2012, J/A+A/543/A156
+   
+File Summary:
+--------------------------------------------------------------------------------
+ FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe         80        .   This file
+catalog.dat   280     3006   Catalog of parameters for open clusters
+index.dat      45     3784   List of MWSC objects
+notes.dat      80     5049   Notes to MWSC objects
+stars/*         .     3006  *Star catalogs for 3006 sky areas
+atlas/*         .     6012  *Two EPS pages with diagrams for each cluster
+--------------------------------------------------------------------------------
+Note on stars/*:
+  The file names include the MWSC sequential number and a name of a cluster,
+  preceeded by a prefix "2m_" e.g. "2m_0001_Berkeley_58.dat" for the
+  cluster Berkeley 58. The total number of stars catalogued is 63,683,529.
+Note on atlas/* :
+  The file names include the MWSC sequential number and a name of a cluster,
+  e.g. "0001_Berkeley_58_map.eps.gz" for the 1st page with a map as
+  a basic panel, and  "0001_Berkeley_58_cmd.eps.gz" for the 2nd page with CMDs
+  as basic panels.
+--------------------------------------------------------------------------------
+
+See also:
+          B/ocl  : Optically visible open clusters & Candidates (Dias+ 20-2010)
+                   http://www.astro.iag.usp.br/~wilton : Version 3.1, Nov/2010
+          I/280  : 2.5 million stars All-Sky Compiled Catalog (Kharchenko+ 2009)
+          I/317  : The PPMXL Catalog (Roeser+ 2010)
+         II/246  : 2MASS All-Sky Catalog of Point Sources (Cutri+ 2003)
+        III/254  : 2nd Cat. of Radial Velocities with Astrometric Data
+                                                              (Kharchenko+ 2007)
+ J/A+A/397/177   : IR star clusters and stellar groups catalog (Bica+ 2003)
+ J/A+A/400/533   : Southern Milky Way new infrared star clusters (Dutra+ 2003)
+ J/A+A/404/223   : 2MASS IR star clusters in the Galaxy (Bica+ 2003)
+ J/A+A/438/1163  : Catalogue of Open cluster Data (COCD) (Kharchenko+ 2005)
+ J/A+A/440/403   : 109 new Galactic open clusters (COCD1) (Kharchenko+ 2005)
+ J/MNRAS/374/399 : Infrared star clusters with |b|<20{deg} (Froebrich+ 2007)
+ J/MNRAS/400/518 : Velocity and proper motion of OB associations (Melnik+ 2009)
+
+ J/A+A/543/A156  : Milky Way global survey of star clusters I (Kharchenko+ 2012)
+ J/A+A/568/A51   : Milky Way global survey of star clusters III (Schmeja+, 2014)
+
+
+Byte-by-byte Description of file: catalog.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units    Label   Explanations
+--------------------------------------------------------------------------------
+   1-  4  I04   ---      MWSC    [1/3784] MWSC sequential number
+   6- 22  A17   ---      Name    NGC, IC or other common designation
+      24  A1    ---      Type    [agmnrs] Cluster type (G1)
+      25  A1    ---    n_Type    [oc] object/candidate
+  26- 34  F9.4  h        RAhour  Adopted cluster centre in RA J2000.0
+  35- 42  F8.3  deg      DEdeg   Adopted cluster centre in Dec J2000.0
+  43- 50  F8.3  deg      GLON    Galactic longitude
+  51- 58  F8.3  deg      GLAT    Galactic latitude
+  59- 65  F7.3  deg      r0      Angular radius of the core (0 if no core)
+  66- 72  F7.3  deg      r1      Angular radius of the central part
+  73- 79  F7.3  deg      r2      Angular radius of the cluster
+  80- 86  F7.2  mas/yr   pmRA    Average proper motion in RA*cos(DE)
+  87- 93  F7.2  mas/yr   pmDE    Average proper motion in DE
+  94-100  F7.2  mas/yr e_pm      Error of proper motion
+ 101-108  F8.2  km/s     RV      ?=999.99 Average radial velocity
+ 109-116  F8.2  km/s   e_RV      ?=99.99 Error of RV
+ 117-122  I6    ---    o_RV      [0/106] Number of stars used for RV
+ 123-128  I6    ---      N1sr0   [0/147] Number of most probable (1-{sigma})
+                                         members in r0
+ 129-135  I7    ---      N1sr1   [2/950] Number of most probable (1-{sigma}) 
+                                         members in r1 (1)
+ 136-142  I7    ---      N1sr2   [7/4262] Number of most probable (1-{sigma})
+                                          members in r2
+ 143-150  F8.0  pc       d       Distance from the Sun
+ 151-157  F7.3  mag      E(B-V)  Colour-excess in (B-V)
+ 158-164  F7.3  mag      MOD     Apparent distance modulus, m_Ks_-M_Ks_
+ 165-171  F7.3  mag      E(J-Ks) Colour-excess in (J-Ks)
+ 172-178  F7.3  mag      E(J-H)  Colour-excess in (J-H)
+ 179-185  F7.3  mag      dH      Correction {delta}H to Hmag of fitted isochrone
+ 186-192  F7.3  [yr]     logt    [6/10.1] Logarithm of average age
+ 193-199  F7.3  [yr]   e_logt    ?=0.000 Error of logt
+ 200-203  I4    ---      Nt      [0/149]?=-1 Number of stars used for logt
+                                             calculation (2)
+ 204-211  F8.2  pc       rc      ?=0.00 King' core radius
+ 212-219  F8.2  pc     e_rc      ?=0.00 Error of core radius
+ 220-227  F8.2  pc       rt      ?=0.00 King' tidal radius
+ 228-235  F8.2  pc     e_rt      ?=0.00 Error of tidal radius
+ 236-243  F8.2  pc-2     k       ?=0.00 King' normalization factor
+ 244-251  F8.2  pc-2   e_k       ?=0.00 Error of normalization factor
+ 253-256  A4    ---      Src     Source for MWSC list and input parameters (G2)
+ 258-260  A3    ---      SType   Source object type (G3)
+ 262-269  F8.3  [Sun]    [Fe/H]  ?=99.999 Metallicity (3)
+ 270-276  F7.3  [Sun]  e_[Fe/H]  ?=9.99 Error of Metallicity
+ 277-280  I4    ---    o_[Fe/H]  [0/580] Number of stars used for [Fe/H]
+--------------------------------------------------------------------------------
+Note (1): This number of stars is used to compute the average pm.
+Note (2): Nt = -1 if logt has been set manually.
+Note (3): Copied from Conrad et al. (2013) or Dias et al. (2002, Cat. B/ocl),
+  Version 3.1, 24/nov/2010; for globular clusters - are taken from the revised
+  Harris (1996AJ....112.1487H, Cat. VII/202) catalogue, edition 2010,
+  or newly determined.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: index.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  4  I04   ---     MWSC    [1/3784] MWSC sequential number
+   6- 22  A17   ---     Name    NGC, IC or other common designation
+      24  A1    ---     flag    Flag of confirmation/no confirmation (G5)
+      26  A1    ---     Type    [agmnrs] Object type (G1)
+      27  A1    ---   n_Type    [oc] object/candidate
+  29- 32  A4    ---     Src     Source for MWSC list and input parameters (G2)
+  34- 36  A3    ---     SType   Source object type (G3)
+  37- 45  I9    ---     N       Number of stars in MWSC sky area
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: notes.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  4  I04   ---     MWSC    [1/3784] MWSC sequential number
+   6- 22  A17   ---     Name    NGC, IC or other common designation
+      24  A1    ---     flag    [&:=-] Flag of confirmation/no confirmation (G5)
+      26  A1    ---     Type    [agmnrs] Object type (G1)
+      27  A1    ---   n_Type    [oc] object/candidate
+  29- 80  A52   ---     Note    Text of note
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: stars/*
+--------------------------------------------------------------------------------
+   Bytes Format Units    Label   Explanations
+--------------------------------------------------------------------------------
+   1- 13  F13.8 h        RAhour  Right Ascension J2000.0, epoch 2000.0
+  14- 26  F13.7 deg      DEdeg   Declination J2000.0, epoch 2000.0
+  27- 34  F8.3  mag      Bmag    ?=99.990 Blue magnitude (1)              
+  35- 42  F8.3  mag      Vmag    ?=99.990 Visual or red magnitude (2) 
+  43- 50  F8.3  mag      Jmag    2MASS J magnitude
+  51- 58  F8.3  mag      Hmag    2MASS H magnitude
+  59- 66  F8.3  mag      Ksmag   2MASS Ks magnitude
+  67- 73  F7.3  mag    e_Jmag    Error of J magnitude
+  74- 80  F7.3  mag    e_Hmag    Error of H magnitude
+  81- 87  F7.3  mag    e_Ksmag   Error of Ks magnitude
+  88- 97  F10.2 mas/yr   pmRA    ?=9999.90 Proper Motion in RA*cos(DE)
+  98-107  F10.2 mas/yr   pmDE    ?=9999.90 Proper Motion in DE
+ 108-115  F8.2  mas/yr e_pm      ?=-9.99 Error of proper motion
+ 116-124  F9.2  km/s     RV      ?=999.99 Radial velocity
+ 125-131  F7.2  km/s   e_RV      ?=-9.99 Error of RV
+ 133-135  A3    ---      Qflg    2MASS (ph_qual) JHKs Photometric quality flag
+ 136-138  A3    ---      Rflg    2MASS (rd_flg) Source of JHKs default mag
+ 139-141  A3    ---      Bflg    2MASS (bl_flg) JHKs components fit to source
+ 146-155  I10   ---      2MASS   2MASS (pts_key) Unique identifier in 2MASS
+ 156-163  I8    ---      ASCC    ?=0 ASCC-2.5 number (Cat. I/280)
+ 165-184  A20   ---      SpType  Spectral type and luminosity class
+ 186-193  F8.4  deg      Rcl     Angular distance from cluster centre
+ 194-195  I2    ---      Ps      [0/1] Spatial membership probability
+ 196-203  F8.2  %        Pkin    [0/100] Proper motion membership probability
+ 204-211  F8.2  %        PJKs    [0/100] Photometric JKs membership probability
+ 212-219  F8.2  %        PJH     [0/100] Photometric JH membership probability
+ 221-224  I04   ---      MWSC    [1/3784] MWSC number of cluster
+--------------------------------------------------------------------------------
+Note (1): Blue magnitude, if the star is in the ASCC-2.5 (ASCC is not equal 0), 
+  then this is the Johnson B magnitude from ASCC-2.5; 
+  if the star is not in the ASCC-2.5 (ASCC = 0), then this is the photographic 
+  blue magnitude from USNO-A2.0.
+Note (2): Visual or red magnitude, if the star is in the ASCC-2.5 
+  (ASCC is not equal 0), then this is the Johnson V magnitude from ASCC-2.5; 
+  if the star is not in the ASCC-2.5 (ASCC = 0), then this is the photographic 
+  red magnitude from USNO-A2.0.
+--------------------------------------------------------------------------------
+
+Global notes:
+Note (G1): Object type code has the following meaning:
+   a = association
+   g = globular cluster
+   m = moving group
+   n = nebulosity/presence of nebulosity
+   r = remnant cluster
+   s = asterism
+Note (G2): This column has the following meaning:
+  COCD = Kharchenko et al. (2005, Cat. J/A+A/438/1163, J/A+A/440/403)
+  DIAS = Dias et al. (2002, Cat. B/ocl), Version 3.1, 24/nov/2010
+  DREM = Dias et al. (2002, Cat. B/ocl), Version 3.1, 24/nov/2010, removed
+  MELN = Melnik & Dambis (2009, Cat. J/MNRAS/400/518), associations
+  FPRO = Froebrich et al. (2007, J/MNRAS/374/399), probable
+  FPOS = Froebrich et al. (2007, J/MNRAS/374/399), possible
+  BOPN = Bica et al. (2003, Cat. J/A+A/404/223), Dutra et al. (2003,
+         Cat. J/A+A/400/533), New objects in the area of optical nebulae
+  BIRN = Bica et al. (2003, Cat. J/A+A/404/223), Dutra et al. (2003,
+         Cat. J/A+A/400/533) 2003, New objects in the area of radio/IR nebulae
+  LLEM = Lada & Lada (2003ARA&A..41...57L), Embedded clusters in Molecular
+         Clouds
+  BIEM = Bica et al. (2003, Cat. J/A+A/404/223); IR star clusters and stellar
+         groups catalog
+  HARR = Harris (1996AJ....112.1487H, Cat. VII/202), edition 2010,
+         2010arXiv1012.3224H, physwww.mcmaster.carris/Databases.html
+Note (G3): This column has the following meaning:
+  ass = stellar association
+  ast = Dias: possible asterism/dust hole/star cloud
+  dub = Dias: dubious, objects considered doubtful by the DSS images inspection
+  emb = embedded open cluster/cluster associated with nebulosity
+  glo = globular cluster/possible globular cluster
+  irc = infrared cluster
+  irg = infrared stellar group
+  mog = Dias: possible moving group
+  non = Dias: "non-existent NGC"/ objects not found in DSS images inspection
+  rem = Possible cluster remnant
+  var = clusters with variable extinction
+Note (G5): This column has the following meaning:
+  "=" = cluster parameters are determined
+  ":" = possibly this is a cluster, but parameters are not determined
+  "-" = this is not a cluster
+  "&" = duplicated/coincides with other cluster
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Siegfried Roeser, roeser(at)ari.uni-heidelberg.de
+
+References:
+   Kharchenko et al., Paper I   2012A&A...543A.156K, Cat. J/A+A/543/A156
+   Schmeja et al.,    Paper III 2014A&A...568A..51S, Cat. J/A+A/568/A51
+
+History:
+  * 07-Nov-2013: Original version
+  * 06-Feb-2014: in the Byte-by-byte description of the catalog,
+       the error on the proper motion was assigned to the RA component;
+       it concerns both components
+  * 21-Aug-2015: Corrected definitions for Bmag and Vmag in stars/* files,
+       from Ralf Scholz
+
+================================================================================
+(End)                                      Patricia Vannier [CDS]    07-Nov-2013

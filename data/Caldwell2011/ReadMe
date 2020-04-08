@@ -1,0 +1,154 @@
+J/AJ/141/61       Star clusters in M31. II.                  (Caldwell+, 2011)
+================================================================================
+Star clusters in M31.
+II. Old cluster metallicities and ages from Hectospec data.
+    Caldwell N., Schiavon R., Morrison H., Rose J.A., Harding P.
+   <Astron. J., 141, 61 (2011)>
+   =2011AJ....141...61C
+================================================================================
+ADC_Keywords: Galaxies, nearby; Associations, stellar ; Abundances, [Fe/H] ;
+              Radial velocities
+Keywords: catalogs - galaxies: individual (M31) -
+          galaxies: star clusters: general - globular clusters: general
+
+Abstract:
+    We present new high signal-to-noise spectroscopic data on the M31
+    globular cluster (GC) system, obtained with the Hectospec multifiber
+    spectrograph on the 6.5m MMT. More than 300 clusters have been
+    observed at a resolution of 5{AA} and with a median S/N of 75 per{AA},
+    providing velocities with a median uncertainty of 6km/s. The primary
+    focus of this paper is the determination of mean cluster
+    metallicities, ages, and reddenings. Metallicities were estimated
+    using a calibration of Lick indices with [Fe/H] provided by Galactic
+    GCs.
+
+Description:
+    Subsequent to the publication of Paper I, more HST images of M31
+    clusters became available, which were inspected closely to further 
+    aid in the classification of objects in the cluster catalog.
+
+    The Web site
+    http://www.cfa.harvard.edu/oir/eg/m31clusters/M31_Hectospec.html
+    contains images for all old clusters, young clusters, stars and
+    background galaxies in the catalog of Paper I and may be profitably
+    used to view individual cluster images as an adjunct to the
+    spectroscopy of this paper.
+
+    The data were all taken at the MMT with the Hectospec multifiber
+    spectrograph during the years 2004-2007.
+
+    Subsequent to the Hectospec project, a HectoChelle project of many of
+    these same targets was initiated (J. Strader & N. Caldwell 2011, in
+    preparation), resulting in more precise velocities which allowed us to
+    refine the Hectospec velocity zero points.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe         80        .   This file
+table1.dat     81      323   Results from the spectra of old M31 clusters
+table2.dat     66       37   Young and intermediate age clusters called "old"
+                              in Paper I
+--------------------------------------------------------------------------------
+
+See also:
+   J/AJ/137/94 : Star clusters in M31 (Caldwell+, 2009)
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units      Label     Explanations
+--------------------------------------------------------------------------------
+   1- 10  A10   ---       Name      Object name
+      11  A1    ---     n_Name      Individual notes (1)
+      13  I1    h         RAh       Right Ascension (J2000)
+  15- 16  I2    min       RAm       Right Ascension (J2000)
+  18- 22  F5.2  s         RAs       Right Ascension (J2000)
+      23  A1    ---       DE-       Declination sign (J2000)
+  24- 25  I2    deg       DEd       Declination (J2000)
+  27- 28  I2    arcmin    DEm       Declination (J2000)
+  30- 33  F4.1  arcsec    DEs       Declination (J2000)
+  35- 38  F4.2  mag       E(B-V)    The (B-V) color excess
+      39  A1    ---     f_E(B-V)    [)] E(B-V) value from other sources (2)
+  41- 46  F6.1  km/s      Vel       Velocity from Hectospec
+  48- 49  I2    km/s    e_Vel       Uncertainty in Vel
+  51- 53  F3.1 [Msun]     logM      ? log of the mass
+  55- 58  F4.1 [Sun]      [Fe/H]    ? Metallicity
+  60- 62  F3.1 [Sun]    e_[Fe/H]    ? Uncertainty in [Fe/H]
+  64- 67  F4.1  Gyr       Age       ? Age (3)
+  69- 81  A13   ---       Notes     Additional notes (4)
+--------------------------------------------------------------------------------
+Note (1): Flags as follows:
+   d = The HectoChelle velocity for B070-G133 is significantly different, -222.9
+   f = The HectoChelle velocity for B132-NB15 is significantly different, 70.8
+   g = The HectoChelle velocity for B262 is significantly different, -340.3
+   h = The HectoChelle velocity for NB21 is significantly different, -748.1
+   i = Velocity for this cluster comes from HectoChelle
+   j = Probably bound to NGC 205
+Note (2):
+   ) = Indicates value was not derived here. Such values are either the mode
+    of all clusters, 0.13, or come from Barmby et al. (2000, Cat. J/AJ/119/727).
+Note (3): Uncertainties are 2Gyr for measured ages.
+  * A value of exactly 14Gyr means the age could not be determined,
+    either because the metallicity was lower than -0.95 or the data point fell
+    off of the grids shown in Figure 10.
+  * A blank entry means that we have no blue spectrum or HST image of the 
+    object to estimate the age, but that the red spectrum or the ground-based
+    image do indicate an old age.
+Note (4): Additional notes as follows:
+  e = the spectrum shows weak emission
+  w = the spectrum was weak
+  r = we have only a red spectrum. For either this or the "w" case, no age
+      or metallicity was derived, and it is possible some of these are not
+      in fact old
+  x = age could not be determined
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units     Label     Explanations
+--------------------------------------------------------------------------------
+   1- 17  A17   ---       Name      Object Name
+      19  A1    ---     n_Name      [bcd] Corrections / addition to Paper I (1)
+      21  I1    h         RAh       Right ascension (J2000)
+  23- 24  I2    min       RAm       Right ascension (J2000)
+  26- 30  F5.2  s         RAs       Right ascension (J2000)
+      32  A1    ---       DE-       Declination sign (J2000)
+  33- 34  I2    deg       DEd       Declination (J2000)
+  36- 37  I2    arcmin    DEm       Declination (J2000)
+  39- 42  F4.1  arcsec    DEs       Declination (J2000)
+  44- 47  F4.2  mag       E(B-V)    ? Reddening
+      48  A1    ---     n_E(B-V)    [)] ) when modal reddening of 0.13 (2)
+  50- 55  F6.1  km/s      Vel       ? Velocity
+  57- 58  I2    km/s    e_Vel       ? rms uncertainty on Vel
+  60- 63  F4.2  [Msun]    logM      ? Log of the mass
+  64- 66  F3.1  Gyr       Age       ? Age (3)
+--------------------------------------------------------------------------------
+Note (1): Notes as follows:
+   b = New cluster not listed in Paper I (J/AJ/137/94)
+   c = The coordinates for B257D-D073 have been corrected from
+       Paper I (J/AJ/137/94)
+   d = The velocity for DAO84 in Paper I was incorrect due to an automatic
+       misidentification of emission lines, and thus this young cluster was
+       erroneously identified as a background galaxy. We thank Paul Hodge for
+       helping us identify this error. No other object listed in the tables of
+       Paper I has this particular error.
+Note (2): Where we could not determine new reddenings because the spectra could
+   not be accurately fluxed (some observations were taken with a malfunctioning
+   ADC), we use the modal reddening of E(B-V)=0.13.
+Note (3): Clusters without ages have spectra too poor to determine one, but the
+    age is expected to be younger than 3Gyr based on the continuum shape or the
+    cluster's HST image. Uncertainties in age are roughly a factor of 2.
+--------------------------------------------------------------------------------
+
+History:
+    From electronic version of the journal
+
+References:
+    Caldwell et al., Paper I   2009AJ....137...94C, Cat. J/AJ/137/94
+    Morrison et al., Paper III 2011ApJ...726L...9M
+    Schiavon et al., Paper IV  2012AJ....143...14S
+    Strader et al.   Paper V   2011AJ....142....8S
+
+================================================================================
+(End)                  Greg Schwarz [AAS], Patricia Vannier [CDS]    25-Jul-2012
